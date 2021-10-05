@@ -6,7 +6,7 @@ import Cart from '../Cart/Cart';
 const Home = () => {
     const [services,setServices]=useState([]);
     useEffect(() => {
-        fetch('course.JSON')
+        fetch('homedata.JSON')
             .then(res => res.json())
             .then(data => {setServices(data);
             });

@@ -10,15 +10,16 @@ const Header = () => {
             <nav>
                 <Navbar bg="dark" variant="dark">
                     <Container>
-                        <Nav className="me-auto">
+                        <Navbar.Brand href="#home" className='ms-5 me-5' ><h2 className='navbrand fw-bold'>Engish Buddy</h2></Navbar.Brand>
+                        <Nav className="me-auto ms-5">
                             <Nav.Link>
                                 <NavLink className="nav" to="/home">Home</NavLink>
                             </Nav.Link>
                             <Nav.Link to="/courses">
-                                <NavLink className="nav" to="/courses">Courses</NavLink>
+                                <NavLink className="nav ms-5" to="/courses">Courses</NavLink>
                             </Nav.Link>
                             <Nav.Link to="/about">
-                                <NavLink className="nav" to="/about">About Us</NavLink>
+                                <NavLink className="nav ms-5" to="/about">About Us</NavLink>
                             </Nav.Link>
                         </Nav>
                     </Container>

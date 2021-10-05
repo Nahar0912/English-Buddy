@@ -1,5 +1,8 @@
 .nav{
     text-decoration: none;
-    color: white;
+    color:aquamarine;
     font-size: larger;
+}
+.navbrand{
+    color:lightcoral;
 }
