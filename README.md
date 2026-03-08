@@ -1,6 +1,6 @@
 # English Buddy
 
-Website link: https://github.com/Nahar0912/English-Buddy/raw/refs/heads/main/src/Components/Notfound/Buddy_English_3.8.zip
+Website link: https://competent-goodall-46a16d.netlify.app
 
 ## How It Works:
 
